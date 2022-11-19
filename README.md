@@ -1,4 +1,6 @@
-# Fansi
+# Fuzzy ANSI Finder (Fzaf)
+###### [fuh·zee ey·ef]
+
 Coming soon...
 
-![fansi](static/fansi.gif)
+![fzaf](static/fansi.gif)

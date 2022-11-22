@@ -1,6 +1,6 @@
-# Fuzzy ANSI Finder (Fzaf)
-###### [fuh·zee ey·ef]
+# Fuzzy Color Finder (fzcf)
+`[fuh·zee see·ef]`
 
-Coming soon...
+I've renamed this project 3 times, should I do it a fourth?
 
-![fzaf](static/fansi.gif)
+![fzcf](static/fzcf.gif)

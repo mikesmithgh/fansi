@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+fzf --ansi < static/fzcf-raw-colors.txt | awk '{
+    color_start=sprintf("\x1b[%s;2;%d;%d;%dm", "48", $3, $4, $5)
+    "tput cols || echo 80" | getline width
+    s=sprintf("%11s %11s rgb(%s,%s,%s)", $1, $2, $3, $4, $5)
+    color_stop=sprintf("\x1b[0m")
+    printf("%s%*s%s\n", color_start, -width, s, color_stop)
+}'
+

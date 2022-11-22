@@ -1,2 +1,0 @@
-#!/bin/bash
-echo $(cat static/fansi-raw-colors.txt | fzf --ansi | awk '{ print $4 }')
